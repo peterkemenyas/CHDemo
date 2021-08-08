@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://account.crowdhouse.ch/",
+    "viewportHeight": 600,
+    "viewportWidth": 1000,
+    "ignoreTestFiles": ["/Users/peterkemenyas/Documents/Projects/CHDemo/cypress/integration/1-getting-started/*.js", 
+        "/Users/peterkemenyas/Documents/Projects/CHDemo/cypress/integration/2-advanced-examples/*.js"],
+    "blockHosts": [ "o2.mouseflow.com", "www.google-analytics.com","stats.g.doubleclick.net","trc-events.taboola.com","api.segment.io", "api-iam.intercom.io"]
+}
