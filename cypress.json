@@ -1,5 +1,5 @@
 {
-    "baseUrl": "https://account.crowdhouse.ch/",
+    "baseUrl": "https://account.crowdhouse.ch",
     "viewportHeight": 600,
     "viewportWidth": 1000,
     "ignoreTestFiles": ["/Users/peterkemenyas/Documents/Projects/CHDemo/cypress/integration/1-getting-started/*.js", 
