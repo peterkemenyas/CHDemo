@@ -2,7 +2,7 @@
 import LoginPage from '../support/pageObjects/LoginPage'
 
 
-/*describe('Login TestSuite', ()=>{
+describe('Login TestSuite', ()=>{
 
     let username;
     let password;
@@ -22,7 +22,7 @@ import LoginPage from '../support/pageObjects/LoginPage'
         cy.get('[data-testid="password"]').type('PasCra194613')
         cy.get('button[type="submit"]').contains('Einloggen').click()
         cy.get('[data-testid="header-content"]').contains('P. Kemenyas').should('be.visible')
-        
+        */
     })
 
     it('Login - incorrect username and correct password', () => {
@@ -54,13 +54,13 @@ import LoginPage from '../support/pageObjects/LoginPage'
         loginPage.verifyErrorMessage('Die eingegebene E-Mail-Adresse oder das Passwort ist falsch.');
 
     })
-})*/
+})
 
 describe('Login form validation TestSuite', () => {
     let username
     let password
 
-    it('Valid username',()=>{
+    it('Valid email',()=>{
         username = 'valid.format@valid.format';
 
         const loginPage = new LoginPage();
@@ -70,7 +70,7 @@ describe('Login form validation TestSuite', () => {
         
     })
 
-    it('Invalid username',()=>{
+    it('Invalid email',()=>{
         username = 'invalid.format@invalid';
 
         const loginPage = new LoginPage();
